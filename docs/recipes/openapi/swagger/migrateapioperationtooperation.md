@@ -57,6 +57,9 @@ This recipe is available under the [Apache License 2.0](https://www.apache.org/l
 * [Remove annotation attribute](../../java/removeannotationattribute)
   * annotationType: `io.swagger.v3.oas.annotations.Operation`
   * attributeName: `produces`
+* [Remove annotation attribute](../../java/removeannotationattribute)
+  * annotationType: `io.swagger.v3.oas.annotations.Operation`
+  * attributeName: `responseContainer`
 
 </TabItem>
 
@@ -96,6 +99,9 @@ recipeList:
   - org.openrewrite.java.RemoveAnnotationAttribute:
       annotationType: io.swagger.v3.oas.annotations.Operation
       attributeName: produces
+  - org.openrewrite.java.RemoveAnnotationAttribute:
+      annotationType: io.swagger.v3.oas.annotations.Operation
+      attributeName: responseContainer
 
 ```
 </TabItem>
